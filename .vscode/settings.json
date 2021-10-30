@@ -9,6 +9,16 @@
 		"tsconfig.json": true,
 		".gitignore": true,
 		"node_modules": true,
-		"yarn.lock": true
+		"yarn.lock": true,
+		".husky": true,
+		".editorconfig": true,
+		".env.local": true,
+		".env.example": true,
+		".eslintrc.json": true,
+		".eslintignore": true,
+		".releaserc.json": true,
+		".prettierrc.json": true,
+		"commitlint.config.js": true,
+		"Makefile": true
 	}
 }
