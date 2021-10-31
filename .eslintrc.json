@@ -34,7 +34,7 @@
 				"format": ["PascalCase"],
 				"custom": {
 					"regex": "^I[A-Z]",
-					"match": true
+					"match": false
 				}
 			}
 		],
@@ -79,7 +79,8 @@
 		],
 		"react/react-in-jsx-scope": "off",
 		"no-use-before-define": "off",
-		"@typescript-eslint/no-use-before-define": ["error"]
+		"@typescript-eslint/no-use-before-define": ["error"],
+		"react/jsx-props-no-spreading": "off"
 	},
 	"settings": {
 		"import/resolver": {
