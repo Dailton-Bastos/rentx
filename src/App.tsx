@@ -1,9 +1,10 @@
+import { Home } from './pages/Home';
 import { GlobalStyle } from './styles/global';
 
-export const App = () => {
+export const App = (): JSX.Element => {
 	return (
 		<>
-			<div>React App</div>
+			<Home />
 
 			<GlobalStyle />
 		</>
