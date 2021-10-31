@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/Dailton-Bastos/rentx/compare/v1.0.1...v1.1.0) (2021-10-31)
+
+
+### Features
+
+* add container component" ([f875a2f](https://github.com/Dailton-Bastos/rentx/commit/f875a2f50ebbb4121d722d36958a9edfc8ba5481))
+* add home page ([59ac3bb](https://github.com/Dailton-Bastos/rentx/commit/59ac3bb69108aa2f1ecdb33d2567fb44eaa1ce92))
+
 ## [1.0.1](https://github.com/Dailton-Bastos/rentx/compare/v1.0.0...v1.0.1) (2021-10-30)
 
 
