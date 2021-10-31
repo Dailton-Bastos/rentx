@@ -1,10 +1,10 @@
-import { Home } from './pages/Home';
+import { Catalog } from './pages/Catalog';
 import { GlobalStyle } from './styles/global';
 
 export const App = (): JSX.Element => {
 	return (
 		<>
-			<Home />
+			<Catalog />
 
 			<GlobalStyle />
 		</>
