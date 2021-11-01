@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import { ReactComponent as IconHome } from '../../assets/icon_catalog.svg';
 import { ReactComponent as IconFilter } from '../../assets/icon_filter.svg';
 import { ReactComponent as IconLogin } from '../../assets/icon_login.svg';
@@ -15,19 +17,19 @@ export const Navigation = (): JSX.Element => {
 				<S.Wrapper>
 					<ul>
 						<li>
-							<a className='active' href='/catalog'>
+							<NavLink to='/catalog'>
 								<IconHome />
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href='/filter'>
+							<NavLink to='/filter'>
 								<IconFilter />
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href='/login'>
+							<NavLink to='/login'>
 								<IconLogin />
-							</a>
+							</NavLink>
 						</li>
 					</ul>
 				</S.Wrapper>
