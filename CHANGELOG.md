@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/Dailton-Bastos/rentx/compare/v1.1.0...v1.2.0) (2021-11-03)
+
+
+### Features
+
+* add default button component ([8ad47f0](https://github.com/Dailton-Bastos/rentx/commit/8ad47f017ca7700933b729b038526f89da7f270b))
+* add header component ([22e49a5](https://github.com/Dailton-Bastos/rentx/commit/22e49a52eba577fe1c772339407c88e974b3205e))
+* add input component ([bec89d7](https://github.com/Dailton-Bastos/rentx/commit/bec89d726b4ccae58dfa4ef5fb218abde460335f))
+* add navigation component ([63e93f6](https://github.com/Dailton-Bastos/rentx/commit/63e93f6c9c2290f644d517c6786e5bd4bee9d50d))
+* add react-router-dom ([ddde4b4](https://github.com/Dailton-Bastos/rentx/commit/ddde4b47c69c09cd47a9ffd2fa4d14cf42963a0d))
+* add signin page ([a2f8bfc](https://github.com/Dailton-Bastos/rentx/commit/a2f8bfc51ce759ac10c79dd6adc2098b3c737d2f))
+* init catalog pag ([f0af1cf](https://github.com/Dailton-Bastos/rentx/commit/f0af1cf9c46e39538ca2aa5107df04e6260c9b40))
+* merge develop branch ([3651ac8](https://github.com/Dailton-Bastos/rentx/commit/3651ac887cda9a663ace2651e0880b3e4e5daaa4))
+
 # [1.1.0](https://github.com/Dailton-Bastos/rentx/compare/v1.0.1...v1.1.0) (2021-10-31)
 
 
