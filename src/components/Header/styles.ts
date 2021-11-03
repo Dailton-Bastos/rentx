@@ -5,7 +5,7 @@ export const Header = styled.header`
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: calc(100% - 80px);
+	width: 100%;
 `;
 
 export const Wrapper = styled.div`
