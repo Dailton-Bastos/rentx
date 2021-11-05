@@ -10,14 +10,15 @@ export const SignIn = styled.section`
 	min-height: calc(100vh - 80px);
 	justify-content: center;
 	margin-top: 80px;
+	padding-left: 80px;
 	width: 100%;
 `;
 
 export const Grid = styled.div`
+	align-items: center;
 	column-gap: 130px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	padding: 0 10rem;
 `;
 
 export const Background = styled.div`
@@ -25,8 +26,7 @@ export const Background = styled.div`
 	background: url(${signInBackgroundImage}) no-repeat center center;
 	background-size: contain;
 	display: flex;
-	height: 100%;
+	height: 612px;
 	justify-content: center;
 	margin: var(--container-space-sm) 0;
-	max-height: 612px;
 `;
