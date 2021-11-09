@@ -3,16 +3,29 @@ import React from 'react';
 import * as S from './styles';
 
 type InputProps = React.InputHTMLAttributes<HTMLInputElement> & {
-	icon: string;
+	icon: JSX.Element;
+	isPassword?: React.HTMLProps<HTMLButtonElement>;
 };
 
-export const Input = ({ icon, ...props }: InputProps): JSX.Element => {
+export const Input = ({
+	icon,
+	isPassword,
+	...props
+}: InputProps): JSX.Element => {
+	const [isFocus, setIsFocus] = React.useState<boolean>(false);
+
 	return (
-		<S.Wrapper>
-			<div className='icon'>
-				<img src={icon} alt='Icon' />
-			</div>
+		<S.Wrapper
+			onFocus={() => setIsFocus(true)}
+			onBlur={() => setIsFocus(false)}
+		>
+			<div className={`icon ${isFocus ? 'focus' : ''}`}>{icon}</div>
 			<input {...props} />
+			{isPassword && isPassword}
 		</S.Wrapper>
 	);
+};
+
+Input.defaultProps = {
+	isPassword: false
 };
