@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/Dailton-Bastos/rentx/compare/v1.2.0...v1.3.0) (2021-11-09)
+
+
+### Features
+
+* add forgot password page ([6110c01](https://github.com/Dailton-Bastos/rentx/commit/6110c01a25ef29827115f1aa846950af5e552c4e))
+* add login page ([9c9135d](https://github.com/Dailton-Bastos/rentx/commit/9c9135d8d24093c1fb92eca1d155f092b3d56dbc))
+* **input:** change icon color on focus ([8104aa4](https://github.com/Dailton-Bastos/rentx/commit/8104aa4d8a13713ee0d6cb58d4be49b870c72c01))
+
 # [1.2.0](https://github.com/Dailton-Bastos/rentx/compare/v1.1.0...v1.2.0) (2021-11-03)
 
 
