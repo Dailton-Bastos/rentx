@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, useRouteMatch } from 'react-router-dom';
 
-import iconEmail from '../../../assets/icon_email.png';
-import iconPassword from '../../../assets/icon_password.png';
+import { ReactComponent as IconEmail } from '../../../assets/icon_email.svg';
+import { ReactComponent as IconPassword } from '../../../assets/icon_password.svg';
 import { ReactComponent as IconViewPassword } from '../../../assets/icon_view_password.svg';
 import { Button } from '../../../components/Button';
 import { Input } from '../../../components/Input';
@@ -19,17 +19,21 @@ export const Login = (): JSX.Element => {
 			<p>Faça seu login para começar uma experiência incrível.</p>
 
 			<S.Form>
-				<Input icon={iconEmail} type='email' placeholder='E-mail' />
-				<S.InputPassword>
-					<Input
-						icon={iconPassword}
-						type={viewPassword ? 'text' : 'password'}
-						placeholder='Senha'
-					/>
-					<button type='button' onClick={() => setViewPassword(!viewPassword)}>
-						<IconViewPassword />
-					</button>
-				</S.InputPassword>
+				<Input icon={<IconEmail />} type='email' placeholder='E-mail' />
+
+				<Input
+					icon={<IconPassword />}
+					type={viewPassword ? 'text' : 'password'}
+					placeholder='Senha'
+					isPassword={
+						<button
+							type='button'
+							onClick={() => setViewPassword(!viewPassword)}
+						>
+							<IconViewPassword />
+						</button>
+					}
+				/>
 
 				<Link className='forgot__password' to={`${url}/forgot`}>
 					Esqueci minha senha

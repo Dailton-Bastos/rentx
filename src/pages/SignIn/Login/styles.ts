@@ -30,31 +30,6 @@ export const Form = styled.form`
 	}
 `;
 
-export const InputPassword = styled.div`
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
-
-	> div {
-		width: 100%;
-
-		input {
-			border-right: none;
-		}
-	}
-	button {
-		align-items: center;
-		background-color: var(--color-white);
-		border: 1px solid var(--color-gray-light);
-		border-left-color: transparent;
-		display: flex;
-		height: 64px;
-		justify-content: center;
-		margin-bottom: 1rem;
-		width: 71px;
-	}
-`;
-
 export const SignUpButton = styled.div`
 	border: 1px solid #dedee3;
 	margin-top: 16px;
