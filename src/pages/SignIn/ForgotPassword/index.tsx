@@ -1,4 +1,4 @@
-import iconEmail from '../../../assets/icon_email.png';
+import { ReactComponent as IconEmail } from '../../../assets/icon_email.svg';
 import { Button } from '../../../components/Button';
 import { Input } from '../../../components/Input';
 import * as S from './styles';
@@ -10,7 +10,7 @@ export const ForgotPassword = (): JSX.Element => {
 			<p>Insira seu e-mail para receber um link de recuperação</p>
 
 			<S.Form>
-				<Input icon={iconEmail} type='email' placeholder='E-mail' />
+				<Input icon={<IconEmail />} type='email' placeholder='E-mail' />
 
 				<Button type='submit'>Login</Button>
 			</S.Form>
